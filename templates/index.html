@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentence simplification</title>
+</head>
+<body>
+<h1>Sentence Simplification</h1>
+    <form action="/simplify-sentence" method="post">
+        <input type="text" name="sentence">
+        <input type="submit" value="Submit sentence"/>
+    </form>
+
+    <p style="background-color: coral">
+        {{ Original }}
+    </p>
+    <p>
+        {{ Core }}
+    </p>
+    <p>
+        {{ Context }}
+    </p>
+</body>
+</html>
