@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Generation</title>
+</head>
+<body>
+<h1>Question Generation</h1>
+    <form action="/generate-questions" method="post">
+        <input type="text" name="sentence">
+        <input type="submit" value="Submit sentence"/>
+    </form>
+
+    <p style="background-color: coral">
+        {{ Sentence }}
+    </p>
+    <p>
+        {{ Questions }}
+    </p>
+    <p>
+        {{ Context }}
+    </p>
+</body>
+</html>
